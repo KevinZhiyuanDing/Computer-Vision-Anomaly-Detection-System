@@ -1,0 +1,7 @@
+# Ignore folders
+__pycache__/
+data/
+videos/
+pca/
+__pycache__/
+.vscode/settings.json

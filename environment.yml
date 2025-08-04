@@ -1,0 +1,10 @@
+name: cv_fft_project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - scipy
+  - opencv
+  - numpy
+  - matplotlib
+  - scikit-learn
