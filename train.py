@@ -100,7 +100,8 @@ def log_training_data(raw_data, filename):
 
 def main():
     """Entry point for training motion tracking."""
-    video_manager = VideoManager("videos/train.mp4")
+    ## #video_manager = VideoManager("videos/train.mp4")
+    video_manager = VideoManager(0)
     try:
         train_fft_model(video_manager, window_size=300, sampling_rate=30, debug=True, duration=10)
     finally:

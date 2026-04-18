@@ -191,7 +191,8 @@ def main():
     training_coordinates = load_json(COORDINATES_PATH)
     cycle_data = load_json(CYCLE_PATH)
 
-    video_manager = VideoManager(source="videos/live_with_anomaly.mp4")
+    # video_manager = VideoManager(source="videos/live_with_anomaly.mp4")
+    video_manager = VideoManager(0)
     validate_configuration(config, video_manager)
 
     # Extract cycle_window for each color
